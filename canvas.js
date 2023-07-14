@@ -66,7 +66,7 @@ function Circle(x = 200, y = 200, dx = 5, dy = 5, radius = 5, color = blue){
 
 var circleArray = []
 
-for (var i=0; i < 1000; i++){
+for (var i=0; i < 500; i++){
     var maxRadius = 20
     const radius = Math.random() * (20 - 1) + 1
     // Create a variable that holds the starting x value
